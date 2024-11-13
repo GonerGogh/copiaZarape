@@ -1,31 +1,8 @@
 1.- Hacer una pantalla para que se registren admin y usuarios
 2.- Hay una pagina llamda meta tags que sirva para probar como se ve tu pagina web en distintas redes sociales
+------------------------------------------------------------------------------------------------------
 
 
-<div class="id">
-                            <!-- icono -->
-                                <div class="div-img">
-                                <img src="imagenes/icono-id.png" alt="">
-                                </div>
+REFERENTE A GIT 
 
-                                <div class="div-label">
-                                    <label for="">ID:</label>
-                                </div>
-                                <div class="div-input">
-                                    <input  type="text" id="id" name="id">
-                                </div>  
-                                
-                                <div class="id">
-                            <!-- icono -->
-                                <div class="div-img">
-                                <img src="imagenes/icono-id.png" alt="">
-                                </div>
-
-                                <div class="div-label">
-                                    <label">ID:</label>
-                                </div>
-                                <div class="div-input">
-                                    <input  type="text" id="id-registrar-usuario" name="id">
-                                </div>                  
-                        </div>
-                        </div>
+-Para ver los cambios de un colaborador se necesita hacer un git pull origin main 
