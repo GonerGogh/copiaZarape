@@ -410,63 +410,6 @@ body{
     padding: 0;
 } 
 
-/* 
-#formulario-registrar-usuario .contraseña .div-img  {
-    position: relative;
-    width: 25%;
-    height: 35%;
-    border: 1px solid #fcfcfc;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 5px;
-    padding: 0;
-} 
-
- #formulario-registrar-usuario .contraseña .div-input {
-    top: 16%;
-} 
-#formulario-registrar-usuario .div-img img{
-    display: flex;
-    flex-wrap: wrap;
-    width: 95%;
-    height: 90%;
-    
-} 
-#formulario-registrar-usuario button{
-    width: fit-content;
-    max-height: 30%;
-    background-color: #000;
-    left: -8%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 10px;
-    flex-wrap:wrap ;
-}
-
-#formulario-registrar-usuario a {
-    width: fit-content;
-    max-width: 127px;
-    text-decoration: none;
-    flex: 1 1 100px;
-    font-size: calc(13px + 1vw);
-    font-weight: bold;
-    background-color: #7e816e ;
-    color: rgb(0, 0, 0);
-    border-radius: 5px;
-    text-align: center;
-    border: 1px solid #000;
-    box-shadow: 0px 0px 10px #000;
-    transform: translate(.4s);
-    position: relative;
-    box-sizing: border-box;
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
-    padding-left: 10px;
-    padding-right: 10px;
-} */
  
 
 
