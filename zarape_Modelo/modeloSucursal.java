@@ -1,22 +1,19 @@
 public class modeloSucursal {
-/*
-Flor Rocío Nava Carrillo
- */
-    int idSucursal;
-    String nombre;
-    String latitud;
-    String longitud;
-    String foto;
-    String urlWeb;
-    String horarios;
-    String calle;
-    String numCalle;
-    String colonia;
-    
-    public modeloSucursal(){
-    }
+    private int idSucursal;
+    private String nombre;
+    private String latitud;
+    private String longitud;
+    private String foto;
+    private String urlWeb;
+    private String horarios;
+    private String calle;
+    private String numCalle;
+    private String colonia;
+    private int idCiudad;
+    private int activo;
 
-    public modeloSucursal(int idSucursal, String nombre, String latitud, String longitud, String foto, String urlWeb, String horarios, String calle, String numCalle, String colonia) {
+    // Constructor
+    public modeloSucursal(int idSucursal, String nombre, String latitud, String longitud, String foto, String urlWeb, String horarios, String calle, String numCalle, String colonia, int idCiudad, int activo) {
         this.idSucursal = idSucursal;
         this.nombre = nombre;
         this.latitud = latitud;
@@ -27,8 +24,11 @@ Flor Rocío Nava Carrillo
         this.calle = calle;
         this.numCalle = numCalle;
         this.colonia = colonia;
+        this.idCiudad = idCiudad;
+        this.activo = activo;
     }
 
+    // Getters y setters
     public int getIdSucursal() {
         return idSucursal;
     }
@@ -108,5 +108,20 @@ Flor Rocío Nava Carrillo
     public void setColonia(String colonia) {
         this.colonia = colonia;
     }
-    
-}    
+
+    public int getIdCiudad() {
+        return idCiudad;
+    }
+
+    public void setIdCiudad(int idCiudad) {
+        this.idCiudad = idCiudad;
+    }
+
+    public int getActivo() {
+        return activo;
+    }
+
+    public void setActivo(int activo) {
+        this.activo = activo;
+    }
+}
