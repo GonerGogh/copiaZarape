@@ -1,9 +1,4 @@
 
-
-/**
- *
- * @author Emilio
- */
 public class modeloClientes {
     private int idCliente;
     private int idPersona;
